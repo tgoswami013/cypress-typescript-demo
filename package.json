@@ -1,0 +1,27 @@
+{
+    "name": "cypress-typescript-demo",
+    "version": "1.0.0",
+    "description": "Cypress TypeScript Demo",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cy:run:chrome": "cypress run --browser chrome",
+        "cy:run:firefox": "cypress run --browser firefox",
+        "cy:run:electron": "cypress run --browser electron"
+    },
+    "keywords": [
+        "cypress",
+        "typescript",
+        "framework"
+    ],
+    "author": "Tarun Goswami",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^12.12.0",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "cypress-image-snapshot": "^4.0.1",
+        "prettier": "^2.8.8"
+    }
+}
